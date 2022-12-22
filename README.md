@@ -13,7 +13,7 @@ There are two main directories,
  
  Creating a `.env` file and then add `PORT=<Your desired port number>`
  
- When succeed in the step above open your terminal and run `npm start` on your terminal, this will start the server 
+After the above step, open your terminal and run `npm start` on your terminal, this will start the server 
  
 The client aspect was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
