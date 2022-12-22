@@ -10,18 +10,13 @@ There are two main directories,
 
 `2` Server
 
-To run the project clone the repository
+To run the server you need to set up a port and this can be done by
 
-Create a .env file on the root directory and add the following parameters
+Creating a `.env` file and then add `PORT=<Your desired port number>`
 
-`
-PORT=3200
+After the above step, open your terminal and run `npm start` on your terminal, this will start the server
 
-NODE_ENV=production
-
-`
-
-and then on the project directory run `npm run serve`
+The client aspect was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Then on your browser enter `<domain:3200>` this was tested with
 
