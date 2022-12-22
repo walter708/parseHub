@@ -11,7 +11,7 @@ function FileBrowser() {
   useEffect(() => {
     async function fetchData() {
       const result = await axios.get(
-        `http://localhost:3200/path?mypath=${currentPath}`
+        `/path?mypath=${currentPath}`
       );
       setFileContent(result.data);
     }

@@ -1,45 +1,46 @@
 # parseHub
+
 A directory test application for ParseHub
 
-This project is a done in fulfillment of the job requirement by ParseHub 
+This project is done in fulfillment of the job requirement by ParseHub
 
-There are two main directories, 
+There are two main directories,
 
 `1` Client
- 
- `2` Server 
- 
- To run the server you need to set up a port and this can be done by 
- 
- Creating a `.env` file and then add `PORT=<Your desired port number>`
- 
-After the above step, open your terminal and run `npm start` on your terminal, this will start the server 
- 
-The client aspect was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+`2` Server
 
-In the project directory, you can run:
+To run the project clone the repository
 
-### `npm start`
+Create a .env file on the root directory and add the following parameters
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`
+PORT=3200
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+NODE_ENV=production
 
-### `npm test`
+`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+and then on the project directory run `npm run serve`
 
-### `npm run build`
+Then on your browser enter `<domain:3200>` this was tested with
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`http://localhost:3200`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Alternatively you can run the Client and Server separately
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To do this
+
+To run the project clone the repository
+
+On the root run `npm install`
+
+and npm `npm start`
+
+create a new terminal pointing to the project root directory
+
+On this cd into the client
+
+Run `npm install`
+
+and then `npm start`

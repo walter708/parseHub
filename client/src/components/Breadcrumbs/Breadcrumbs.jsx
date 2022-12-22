@@ -21,10 +21,14 @@ const Breadcrumbs = ({ fileContent, setCurrentPath }) => {
     <Box display="flex" justifyContent="space-between" p={2}>
       <Box display="flex" backgroundColor={colors.primary[400]} p={1}>
         {arrlinks.map((elem, index) => (
-          <Box display="flex" alignItems="center" justifyContent="center">
+          <Box
+            key={`${elem}-${index}`}
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+          >
             <Box
               component="span"
-              key={elem}
               onClick={() => handleClick(elem)}
               className={classes.bread_crumb}
             >

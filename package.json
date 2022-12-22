@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "serve": "npm install && cd client && npm install && npm run build && cd .. && npm start"
   },
   "keywords": [],
   "author": "",
