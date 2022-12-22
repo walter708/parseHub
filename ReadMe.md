@@ -12,25 +12,28 @@ There are two main directories,
 
 Clone the repository
 
+on the root directory create a .env file and add this parameter
+
+`PORT=3200
+NODE_ENV=production`
+
 On the root repository run `npm run serve`
 
-Then on your browser enter `<domain:3200>` this was tested with
-
-`http://localhost:3200`
+Then on your browser enter `http://localhost:3200`
 
 Alternatively you can run the Client and Server separately
 
 To do this
 
-To run the project clone the repository
+To clone the repository
 
 On the root run `npm install`
 
 and npm `npm start`
 
-create a new terminal pointing to the project root directory
+open a new terminal pointing to the project root directory
 
-On this cd into the client
+On this terminal change directory into the client
 
 Run `npm install`
 
