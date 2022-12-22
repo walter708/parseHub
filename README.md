@@ -1,7 +1,20 @@
 # parseHub
 A directory test application for ParseHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a done in fulfillment of the job requirement by ParseHub 
+
+There are two main directories, 
+`1` Client
+ 
+ `2` Server 
+ 
+ To run the server you need to set up a port and this can be done by 
+ 
+ Creating a `.env` file and then add `PORT=<Your desired port number>`
+ 
+ When succeed in the step above open your terminal and run `npm start` on your terminal, this will start the server 
+ 
+The client aspect was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
